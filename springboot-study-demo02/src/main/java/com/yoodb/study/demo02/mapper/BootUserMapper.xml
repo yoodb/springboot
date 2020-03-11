@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yoodb.study.demo02.mapper.BootUserMapper" >
+    <resultMap id="BaseResultMap" type="com.yoodb.study.demo02.bean.BootUser" >
+        <id column="id" property="id" jdbcType="VARCHAR" />
+        <result column="user_name" property="name" jdbcType="VARCHAR" />
+        <result column="detail" property="detail" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <select id="selectAll" resultMap="BaseResultMap">
+    select
+         id, user_name, detail
+    from boot_user order by detail asc
+    </select>
+</mapper>

@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-study-demo01/springboot-study-demo01.iml" filepath="$PROJECT_DIR$/springboot-study-demo01/springboot-study-demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-demo02/springboot-study-demo02.iml" filepath="$PROJECT_DIR$/springboot-study-demo02/springboot-study-demo02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-demo03/springboot-study-demo03.iml" filepath="$PROJECT_DIR$/springboot-study-demo03/springboot-study-demo03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-demo04/springboot-study-demo04.iml" filepath="$PROJECT_DIR$/springboot-study-demo04/springboot-study-demo04.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/study.iml" filepath="$PROJECT_DIR$/.idea/study.iml" />
     </modules>
   </component>
