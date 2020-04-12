@@ -6,10 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-study-demo08" />
+        <module name="springboot-study-demo07" />
+        <module name="springboot-study-demo06" />
+        <module name="springboot-study-demo05" />
         <module name="springboot-study-demo04" />
         <module name="springboot-study-demo03" />
         <module name="springboot-study-demo02" />
         <module name="springboot-study-demo01" />
+        <module name="sso-oauth2-server" />
+        <module name="sso-oauth2-server (1)" />
+        <module name="sso-oauth2-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +24,18 @@
       <module name="springboot-study-demo02" target="1.8" />
       <module name="springboot-study-demo03" target="1.8" />
       <module name="springboot-study-demo04" target="1.8" />
+      <module name="springboot-study-demo05" target="1.8" />
+      <module name="springboot-study-demo06" target="1.8" />
+      <module name="springboot-study-demo07" target="1.8" />
+      <module name="springboot-study-demo08" target="1.8" />
+      <module name="springboot-study-demo08 (1) (com.yoodb.study.demo08)" target="1.8" />
+      <module name="springboot-study-mongodb-demo06" target="1.8" />
+      <module name="sso-oauth2-client" target="1.8" />
+      <module name="sso-oauth2-resource" target="1.8" />
+      <module name="sso-oauth2-server" target="1.8" />
+      <module name="sso-oauth2-server (1)" target="1.8" />
+      <module name="study" target="1.5" />
+      <module name="study (1)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,6 +44,16 @@
       <module name="springboot-study-demo02" options="-parameters" />
       <module name="springboot-study-demo03" options="-parameters" />
       <module name="springboot-study-demo04" options="-parameters" />
+      <module name="springboot-study-demo05" options="-parameters" />
+      <module name="springboot-study-demo06" options="-parameters" />
+      <module name="springboot-study-demo07" options="-parameters" />
+      <module name="springboot-study-demo08" options="-parameters" />
+      <module name="springboot-study-demo08 (1) (com.yoodb.study.demo08)" options="-parameters" />
+      <module name="springboot-study-mongodb-demo06" options="-parameters" />
+      <module name="sso-oauth2-client" options="-parameters" />
+      <module name="sso-oauth2-resource" options="-parameters" />
+      <module name="sso-oauth2-server" options="-parameters" />
+      <module name="sso-oauth2-server (1)" options="-parameters" />
     </option>
   </component>
 </project>

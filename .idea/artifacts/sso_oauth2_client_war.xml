@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sso-oauth2-client:war">
+    <output-path>$PROJECT_DIR$/springboot-study-demo08/sso-oauth2-client/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sso-oauth2-client</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sso-oauth2-client-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sso-oauth2-client:war exploded" />
+    </root>
+  </artifact>
+</component>

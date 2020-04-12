@@ -5,6 +5,11 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-study-demo02" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-study-demo03" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-study-demo04" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-study-demo05" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-study-demo06" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-study-demo07" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-study-demo08" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-study-mongodb-demo06" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -12,10 +17,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/springboot-study-demo01/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-study-demo02/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-study-demo03/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-study-demo04/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>

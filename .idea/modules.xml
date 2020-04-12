@@ -6,7 +6,14 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-study-demo02/springboot-study-demo02.iml" filepath="$PROJECT_DIR$/springboot-study-demo02/springboot-study-demo02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-study-demo03/springboot-study-demo03.iml" filepath="$PROJECT_DIR$/springboot-study-demo03/springboot-study-demo03.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-study-demo04/springboot-study-demo04.iml" filepath="$PROJECT_DIR$/springboot-study-demo04/springboot-study-demo04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/study.iml" filepath="$PROJECT_DIR$/.idea/study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-demo05/springboot-study-demo05.iml" filepath="$PROJECT_DIR$/springboot-study-demo05/springboot-study-demo05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-demo06/springboot-study-demo06.iml" filepath="$PROJECT_DIR$/springboot-study-demo06/springboot-study-demo06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-demo07/springboot-study-demo07.iml" filepath="$PROJECT_DIR$/springboot-study-demo07/springboot-study-demo07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-demo08/springboot-study-demo08.iml" filepath="$PROJECT_DIR$/springboot-study-demo08/springboot-study-demo08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-demo08/sso-oauth2-client/sso-oauth2-client.iml" filepath="$PROJECT_DIR$/springboot-study-demo08/sso-oauth2-client/sso-oauth2-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-demo08/sso-oauth2-server/sso-oauth2-server.iml" filepath="$PROJECT_DIR$/springboot-study-demo08/sso-oauth2-server/sso-oauth2-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-study-demo08/sso-oauth2-client/sso-oauth2-server (1).iml" filepath="$PROJECT_DIR$/springboot-study-demo08/sso-oauth2-client/sso-oauth2-server (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-study-demo08 (1) (com.yoodb.study.demo08):war">
+    <output-path>$PROJECT_DIR$/springboot-study-demo08/sso-oauth2-server/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-study-demo08 (1) (com.yoodb.study.demo08)</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-study-demo08-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-study-demo08 (1) (com.yoodb.study.demo08):war exploded" />
+    </root>
+  </artifact>
+</component>

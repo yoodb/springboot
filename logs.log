@@ -1,0 +1,119 @@
+2020-03-13 15:02:51.889  INFO 13876 --- [main] c.y.s.d.SpringbootStudyDemo04Application : Starting SpringbootStudyDemo04Application on mrwang with PID 13876 (F:\project\study\springboot-study-demo04\target\classes started by afreo in F:\project\study)
+2020-03-13 15:02:51.892 DEBUG 13876 --- [main] c.y.s.d.SpringbootStudyDemo04Application : Running with Spring Boot v2.3.0.M2, Spring v5.2.3.RELEASE
+2020-03-13 15:02:51.892  INFO 13876 --- [main] c.y.s.d.SpringbootStudyDemo04Application : No active profile set, falling back to default profiles: default
+2020-03-13 15:02:56.773  INFO 13876 --- [main] c.y.s.d.SpringbootStudyDemo04Application : Started SpringbootStudyDemo04Application in 5.525 seconds (JVM running for 7.252)
+2020-03-13 15:02:56.924 DEBUG 13876 --- [http-nio-9090-exec-1] com.yoodb.study.demo04.HelloController   : 访问 helloName,Name=yoodb
+2020-03-13 15:03:55.753  WARN 13876 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Destroy method 'close' on bean with name 'sqlSessionTemplate' threw an exception: java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+2020-03-13 15:04:01.252 ERROR 14464 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'logging.level.com.dudu' to org.springframework.boot.logging.LogLevel
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:363) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:323) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.lambda$null$1(Binder.java:411) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder$Context.withSource(Binder.java:542) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder$Context.access$800(Binder.java:512) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindAggregate$2(Binder.java:412) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.AggregateElementBinder.bind(AggregateElementBinder.java:39) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.MapBinder$EntryBinder.lambda$bindEntries$0(MapBinder.java:157) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1126) ~[na:1.8.0_131]
+	at org.springframework.boot.context.properties.bind.MapBinder$EntryBinder.bindEntries(MapBinder.java:157) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.MapBinder.bindAggregate(MapBinder.java:68) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.AggregateBinder.bind(AggregateBinder.java:56) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindAggregate$3(Binder.java:414) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:571) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder$Context.access$100(Binder.java:512) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.bindAggregate(Binder.java:414) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:375) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:319) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:308) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:238) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:212) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.setLogLevels(LoggingApplicationListener.java:364) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeFinalLoggingLevels(LoggingApplicationListener.java:331) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345) [spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at com.yoodb.study.demo04.SpringbootStudyDemo04Application.main(SpringbootStudyDemo04Application.java:13) [classes/:na]
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [org.springframework.boot.logging.LogLevel] for value 'DEBUG:com.yoodb.study'; nested exception is java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG:com.yoodb.study
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:191) ~[spring-core-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.context.properties.bind.BindConverter$CompositeConversionService.convert(BindConverter.java:170) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:96) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:88) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.bindProperty(Binder.java:434) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:379) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:319) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	... 35 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG:com.yoodb.study
+	at org.springframework.boot.convert.LenientObjectToEnumConverterFactory$LenientToEnumConverter.findEnum(LenientObjectToEnumConverterFactory.java:93) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.convert.LenientObjectToEnumConverterFactory$LenientToEnumConverter.convert(LenientObjectToEnumConverterFactory.java:80) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.boot.convert.LenientObjectToEnumConverterFactory$LenientToEnumConverter.convert(LenientObjectToEnumConverterFactory.java:61) ~[spring-boot-2.3.0.M2.jar:2.3.0.M2]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:436) ~[spring-core-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 42 common frames omitted
+
+2020-03-13 15:04:34.181  INFO 400 --- [main] c.y.s.d.SpringbootStudyDemo04Application : Starting SpringbootStudyDemo04Application on mrwang with PID 400 (F:\project\study\springboot-study-demo04\target\classes started by afreo in F:\project\study)
+2020-03-13 15:04:34.184 DEBUG 400 --- [main] c.y.s.d.SpringbootStudyDemo04Application : Running with Spring Boot v2.3.0.M2, Spring v5.2.3.RELEASE
+2020-03-13 15:04:34.185  INFO 400 --- [main] c.y.s.d.SpringbootStudyDemo04Application : No active profile set, falling back to default profiles: default
+2020-03-13 15:04:34.880  INFO 400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-13 15:04:34.882  INFO 400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-13 15:04:34.910  INFO 400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-03-13 15:04:35.135  INFO 400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceConfig' of type [com.yoodb.study.demo04.datasource.DataSourceConfig$$EnhancerBySpringCGLIB$$10d53ccd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-13 15:04:35.180  INFO 400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-13 15:04:35.315  INFO 400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-13 15:04:35.318  INFO 400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'bootUserMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-13 15:04:35.347  INFO 400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-13 15:04:35.562  INFO 400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-03-13 15:04:35.571  INFO 400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-13 15:04:35.572  INFO 400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:04:35.684  INFO 400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-13 15:04:35.684  INFO 400 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1445 ms
+2020-03-13 15:04:36.173  INFO 400 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-03-13 15:04:36.175  INFO 400 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-03-13 15:04:37.713  INFO 400 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:04:38.488  INFO 400 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-03-13 15:04:38.510  INFO 400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-03-13 15:04:38.513  INFO 400 --- [main] c.y.s.d.SpringbootStudyDemo04Application : Started SpringbootStudyDemo04Application in 4.902 seconds (JVM running for 6.539)
+2020-03-13 15:04:46.040  INFO 400 --- [http-nio-9090-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1580983478; Hm_lvt_877c819b198137f4b73ba736fb637eb6=1581163365,1581998681; Hm_lvt_082b0fcee4dd58935ff39e24f00b591b=1581997680,1582606412] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-13 15:04:46.048  INFO 400 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 15:04:46.048  INFO 400 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-13 15:04:46.056  INFO 400 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-03-13 15:04:46.096 DEBUG 400 --- [http-nio-9090-exec-2] com.yoodb.study.demo04.HelloController   : 访问 helloName,Name=yoodb
+2020-03-13 15:07:03.019 DEBUG 400 --- [http-nio-9090-exec-1] com.yoodb.study.demo04.HelloController   : 访问 helloName,Name=yoodb
+2020-03-13 15:07:16.641  INFO 400 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:07:16.642  WARN 400 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Destroy method 'close' on bean with name 'sqlSessionTemplate' threw an exception: java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+2020-03-13 15:07:22.588  INFO 10156 --- [main] c.y.s.d.SpringbootStudyDemo04Application : Starting SpringbootStudyDemo04Application on mrwang with PID 10156 (F:\project\study\springboot-study-demo04\target\classes started by afreo in F:\project\study)
+2020-03-13 15:07:22.596 DEBUG 10156 --- [main] c.y.s.d.SpringbootStudyDemo04Application : Running with Spring Boot v2.3.0.M2, Spring v5.2.3.RELEASE
+2020-03-13 15:07:22.597  INFO 10156 --- [main] c.y.s.d.SpringbootStudyDemo04Application : No active profile set, falling back to default profiles: default
+2020-03-13 15:07:23.372  INFO 10156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-13 15:07:23.375  INFO 10156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-13 15:07:23.408  INFO 10156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-03-13 15:07:23.642  INFO 10156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceConfig' of type [com.yoodb.study.demo04.datasource.DataSourceConfig$$EnhancerBySpringCGLIB$$57c0f4a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-13 15:07:23.679  INFO 10156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-13 15:07:23.816  INFO 10156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-13 15:07:23.819  INFO 10156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'bootUserMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-13 15:07:23.850  INFO 10156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-13 15:07:24.084  INFO 10156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-03-13 15:07:24.093  INFO 10156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-13 15:07:24.094  INFO 10156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:07:24.210  INFO 10156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-13 15:07:24.210  INFO 10156 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1522 ms
+2020-03-13 15:07:24.702  INFO 10156 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-03-13 15:07:24.704  INFO 10156 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-03-13 15:07:26.294  INFO 10156 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:07:27.069  INFO 10156 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-03-13 15:07:27.089  INFO 10156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-03-13 15:07:27.093  INFO 10156 --- [main] c.y.s.d.SpringbootStudyDemo04Application : Started SpringbootStudyDemo04Application in 5.084 seconds (JVM running for 6.747)
+2020-03-13 15:13:04.091  INFO 10156 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:13:04.092  WARN 10156 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Destroy method 'close' on bean with name 'sqlSessionTemplate' threw an exception: java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession

@@ -14,6 +14,13 @@
           <element id="module-output" name="springboot-study-demo04" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.3.0.M2" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.13.0" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.13.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.30" />
           <element id="library" level="project" name="Maven: org.springframework.session:spring-session-data-redis:2.3.0.M1" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:2.3.0.M3" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:2.3.0.M3" />
@@ -22,24 +29,16 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-oxm:5.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.2.3.RELEASE" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
           <element id="library" level="project" name="Maven: org.springframework.session:spring-session-core:2.3.0.M1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.3.RELEASE" />
-          <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:1.0.0" />
+          <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.2" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.3.0.M2" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.3.0.M2" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.0.M2" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.3.0.M2" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
-          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.13.0" />
-          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.13.0" />
-          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.30" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.25" />
-          <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:1.0.0" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.3.0" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.3" />
-          <element id="library" level="project" name="Maven: com.h2database:h2:1.4.200" />
+          <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:2.1.2" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.4" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:2.0.4" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.3.0.M2" />
           <element id="library" level="project" name="Maven: io.lettuce:lettuce-core:5.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.43.Final" />
